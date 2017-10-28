@@ -142,7 +142,7 @@ folium.Marker(
 	icon=folium.Icon(icon='info-sign') 
 ).add_to(m) 
 folium.Marker( 
-	location=[-7.0392159,112.7657553], 
+        location=[-7.0392159,112.7657553], 
 	popup='Khayangan Residence', 
 	icon=folium.Icon(icon='info-sign') 
 ).add_to(m) 
@@ -156,4 +156,55 @@ folium.Marker(
 	popup='Rumah Makan Mbah Muslimah', 
 	icon=folium.Icon(icon='info-sign') 
 ).add_to(m) 
+folium.Marker(
+        location=[-7.158283,113.476421],
+        popup='zoya pamekasan',
+        icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+        location=[-7.158302,113.476522],
+        popup='masjid',
+        icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+        location=[-7.158529,113.476702],
+        popup='atm bni',
+        icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+        location=[-7.159141,113.477762],
+        popup='segara',
+        icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+        location=[-7.160491,113.481492],
+        popup='masjid agung',
+        icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+        location=[-7.155767,113.483456],
+        popup='mandilaras',
+        icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+        location=[-7.157763,113.487638],
+        popup='jl. Stadion',
+        icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+        location=[-7.160425,113.486815],
+        popup='telemoyo',
+        icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+        location=[-7.160897,113.485739],
+        popup='jokotole',
+        icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+        location=[-7.162484,113.486246],
+        popup='jingga',
+        icon=folium.Icon(icon='info-sign')
+).add_to(m)
+
 m.save('index.html')
