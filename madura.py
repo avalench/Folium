@@ -55,4 +55,54 @@ folium.Marker(
     popup='Lombang',
     icon=folium.Icon(icon='info-sign')
 ).add_to(m)
+folium.Marker(
+    location=[-7.1636532, 113.5182242],
+    popup='Galis',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0969402, 113.6558853],
+    popup='Prenduan',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0449567, 113.6004068],
+    popup='Guluk guluk',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0995622, 113.7055589],
+    popup='Bluto',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1463927, 113.1281394],
+    popup='Torjun',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1218832, 113.0090748],
+    popup='Blega',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0262722, 113.4541552],
+    popup='Batu Ampar',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9901512, 113.5503519],
+    popup='Montorna',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9803754, 113.000816],
+    popup='Kokop',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0450812, 112.911726],
+    popup='Konang',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
 m.save('index.html')
