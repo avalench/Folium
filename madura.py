@@ -34,6 +34,7 @@ folium.Marker(
     location=[-6.9431888, 113.5390432],
     popup='Waru',
     icon=folium.Icon(icon='info-sign')
+
 ).add_to(m)
 folium.Marker(
     location=[-6.9547548, 112.8408472],
@@ -105,4 +106,54 @@ folium.Marker(
     popup='Konang',
     icon=folium.Icon(icon='info-sign')
 ).add_to(m)
+folium.Marker( 
+	location=[-6.963261,112.7580141], 
+	popup='Bukit Kapur Arosbaya', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.0034726,112.7686571], 
+	popup='Bukit Jaddih', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.0480749,112.7604445], 
+	popup='Taman Paseban Kota Bangkalan', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.045562,112.7608522], 
+	popup='Kolam Renang Banyu Biru', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.045562,112.7608522], 
+	popup='Nasi Bebek Sinjay', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.0392159,112.7657553,], 
+	popup='SPBU Pertamina PASTI PAS', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.0392159,112.7657553], 
+	popup='Bebek Songkem Pak Salim', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.0392159,112.7657553], 
+	popup='Khayangan Residence', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.0442843,112.760541], 
+	popup='SMK Negeri 2 Bangkalan', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.0454249,112.7566373], 
+	popup='Rumah Makan Mbah Muslimah', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
 m.save('index.html')
