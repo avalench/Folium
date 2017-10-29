@@ -105,105 +105,105 @@ folium.Marker(
     popup='Konang',
     icon=folium.Icon(icon='info-sign')
 ).add_to(m)
-folium.Marker( 
-	location=[-6.963261,112.7580141], 
-	popup='Bukit Kapur Arosbaya', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.0034726,112.7686571], 
-	popup='Bukit Jaddih', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.0480749,112.7604445], 
-	popup='Taman Paseban Kota Bangkalan', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.045562,112.7608522], 
-	popup='Kolam Renang Banyu Biru', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.045562,112.7608522], 
-	popup='Nasi Bebek Sinjay', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.0392159,112.7657553], 
-	popup='SPBU Pertamina PASTI PAS', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.0392159,112.7657553], 
-	popup='Bebek Songkem Pak Salim', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-        location=[-7.0392159,112.7657553], 
-	popup='Khayangan Residence', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.0442843,112.760541], 
-	popup='SMK Negeri 2 Bangkalan', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.0454249,112.7566373], 
-	popup='Rumah Makan Mbah Muslimah', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
 folium.Marker(
-        location=[-7.158283,113.476421],
-        popup='zoya pamekasan',
-        icon=folium.Icon(icon='info-sign')
+    location=[-6.963261, 112.7580141],
+    popup='Bukit Kapur Arosbaya',
+    icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
-        location=[-7.158302,113.476522],
-        popup='masjid',
-        icon=folium.Icon(icon='info-sign')
+    location=[-7.0034726, 112.7686571],
+    popup='Bukit Jaddih',
+    icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
-        location=[-7.158529,113.476702],
-        popup='atm bni',
-        icon=folium.Icon(icon='info-sign')
+    location=[-7.0480749, 112.7604445],
+    popup='Taman Paseban Kota Bangkalan',
+    icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
-        location=[-7.159141,113.477762],
-        popup='segara',
-        icon=folium.Icon(icon='info-sign')
+    location=[-7.045562, 112.7608522],
+    popup='Kolam Renang Banyu Biru',
+    icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
-        location=[-7.160491,113.481492],
-        popup='masjid agung',
-        icon=folium.Icon(icon='info-sign')
+    location=[-7.045562, 112.7608522],
+    popup='Nasi Bebek Sinjay',
+    icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
-        location=[-7.155767,113.483456],
-        popup='mandilaras',
-        icon=folium.Icon(icon='info-sign')
+    location=[-7.0392159, 112.7657553],
+    popup='SPBU Pertamina PASTI PAS',
+    icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
-        location=[-7.157763,113.487638],
-        popup='jl. Stadion',
-        icon=folium.Icon(icon='info-sign')
+    location=[-7.0392159, 112.7657553],
+    popup='Bebek Songkem Pak Salim',
+    icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
-        location=[-7.160425,113.486815],
-        popup='telemoyo',
-        icon=folium.Icon(icon='info-sign')
+    location=[-7.0392159, 112.7657553],
+    popup='Khayangan Residence',
+    icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
-        location=[-7.160897,113.485739],
-        popup='jokotole',
-        icon=folium.Icon(icon='info-sign')
+    location=[-7.0442843, 112.760541],
+    popup='SMK Negeri 2 Bangkalan',
+    icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
-        location=[-7.162484,113.486246],
-        popup='jingga',
-        icon=folium.Icon(icon='info-sign')
+    location=[-7.0454249, 112.7566373],
+    popup='Rumah Makan Mbah Muslimah',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.158283, 113.476421],
+    popup='zoya pamekasan',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.158302, 113.476522],
+    popup='masjid',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.158529, 113.476702],
+    popup='atm bni',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.159141, 113.477762],
+    popup='segara',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.160491, 113.481492],
+    popup='masjid agung',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.155767, 113.483456],
+    popup='mandilaras',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.157763, 113.487638],
+    popup='jl. Stadion',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.160425, 113.486815],
+    popup='telemoyo',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.160897, 113.485739],
+    popup='jokotole',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.162484, 113.486246],
+    popup='jingga',
+    icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
     location=[-7.1727889, 113.4447051],
@@ -255,56 +255,106 @@ folium.Marker(
     popup='Alun Alun Pamekasan',
     icon=folium.Icon(icon='info-sign')
 ).add_to(m)
-folium.Marker( 
-	location=[-7.2371563,113.5335884], 
-	popup='Pantai Jumiang', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.233311,113.5493051], 
-	popup='Cafe Rampak Naong Jumiang', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.2337446,113.5442443], 
-	popup='PT. Marinal Indoprima', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.2337446,113.5442443], 
-	popup='Sunrise Point Cafe', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.2331388,113.5264192], 
-	popup='Masjid Nurul Huda', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.2331388,113.5264192], 
-	popup='Mushalla Nurud Dholam', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.2328382,113.5281948], 
-	popup='TPQ Nurul Dholam', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.2321956,113.5281704], 
-	popup='Majelis Taklim Al Hidayah', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.2362887,113.5305008], 
-	popup='Teri Crispy - Sofyan Store', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.2374975,113.5292921], 
-	popup='Pantai Padelegan', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
+folium.Marker(
+    location=[-7.2371563, 113.5335884],
+    popup='Pantai Jumiang',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.233311, 113.5493051],
+    popup='Cafe Rampak Naong Jumiang',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.2337446, 113.5442443],
+    popup='PT. Marinal Indoprima',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.2337446, 113.5442443],
+    popup='Sunrise Point Cafe',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.2331388, 113.5264192],
+    popup='Masjid Nurul Huda',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.2331388, 113.5264192],
+    popup='Mushalla Nurud Dholam',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.2328382, 113.5281948],
+    popup='TPQ Nurul Dholam',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.2321956, 113.5281704],
+    popup='Majelis Taklim Al Hidayah',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.2362887, 113.5305008],
+    popup='Teri Crispy - Sofyan Store',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.2374975, 113.5292921],
+    popup='Pantai Padelegan',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9011039, 112.9471094],
+    popup='Pijet Setrum',
+    icon=folium.Icon(color='red', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8862571, 112.9828318, 17.54],
+    popup='Taman mangrove 2',
+    icon=folium.Icon(color='green', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8882991, 112.9883212, 16.54],
+    popup='Taman mangrove ',
+    icon=folium.Icon(color='green', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8906211, 113.0694814, 18.04],
+    popup='Kantor Pos ',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9860248, 113.0267308, 16],
+    popup='Night club Tramok kokop ',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9962151, 113.0540483, 16],
+    popup='Kantor Pos kokop ',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0103881, 112.9881211, 17],
+    popup='Night club Aeng ',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0936784, 112.7065992, 17.42],
+    popup='Kantor Pos ',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9531759, 114.1001642, 15.25],
+    popup='Lahan sorgum ',
+    icon=folium.Icon(color='green', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8701869, 113.9246468, 18.79],
+    popup='Batu putih ',
+    icon=folium.Icon(color='white', icon='info-sign')
+).add_to(m)
 
 
 m.save('index.html')
