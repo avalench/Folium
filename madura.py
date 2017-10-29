@@ -206,5 +206,55 @@ folium.Marker(
         popup='jingga',
         icon=folium.Icon(icon='info-sign')
 ).add_to(m)
+folium.Marker(
+    location=[-7.1727889, 113.4447051],
+    popup='Edu Wisata Selamat Pagi Madura',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0583209, 113.3288337],
+    popup='KAR Cell Batuampar',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.203956, 113.4722567],
+    popup='Gelora Ratu Pamellingan Stadium',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.203956, 113.4722567],
+    popup='Terminal Ronggosukowati',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.183527, 113.4785846],
+    popup='RSUD Dr.H. Slamet Martodirdjo',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1700081, 113.4792069],
+    popup='SMPN 1 Pamekasan',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1673895, 113.4784559],
+    popup='Pasar Sekar Putih Gurem',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1592353, 113.4928325],
+    popup='UPT Rumah Sakit Umum Mohammad Noer',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1540617, 113.4959224],
+    popup='Lapas Narkotika Kelas IIA Pamekasan',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.160236, 113.4842923],
+    popup='Alun Alun Pamekasan',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
 
 m.save('index.html')
