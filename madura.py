@@ -356,5 +356,56 @@ folium.Marker(
     icon=folium.Icon(color='white', icon='info-sign')
 ).add_to(m)
 
+folium.Marker( 
+	location=[-6.9762634,114.1182389], 
+	popup='Wisata Pantai Lapa Laok', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.975132,114.107352], 
+	popup='Masjid Ar Rafiqur Rahman', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9728743,114], 
+	popup='Pantai Dungkek', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9618709,114.0981994], 
+	popup='Masjid Nurul Islam', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9698403,114.0996264], 
+	popup='Masjid As Sholihin', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9764643,114.0947555], 
+	popup='Pelabuhan Dungkek', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9764643,114.0947555], 
+	popup='Kantor Pos Dungkek', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9764643,114.0947555], 
+	popup='KUA Dungkek Sumenep', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9764643,114.0947555], 
+	popup='Pasar Dungkek', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9716201,114.0948479], 
+	popup='Bukit Wisata Kalompek', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+
 
 m.save('index.html')
