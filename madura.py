@@ -355,56 +355,55 @@ folium.Marker(
     popup='Batu putih ',
     icon=folium.Icon(color='white', icon='info-sign')
 ).add_to(m)
-
-folium.Marker( 
-	location=[-6.9762634,114.1182389], 
-	popup='Wisata Pantai Lapa Laok', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.975132,114.107352], 
-	popup='Masjid Ar Rafiqur Rahman', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9728743,114], 
-	popup='Pantai Dungkek', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9618709,114.0981994], 
-	popup='Masjid Nurul Islam', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9698403,114.0996264], 
-	popup='Masjid As Sholihin', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9764643,114.0947555], 
-	popup='Pelabuhan Dungkek', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9764643,114.0947555], 
-	popup='Kantor Pos Dungkek', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9764643,114.0947555], 
-	popup='KUA Dungkek Sumenep', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9764643,114.0947555], 
-	popup='Pasar Dungkek', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9716201,114.0948479], 
-	popup='Bukit Wisata Kalompek', 
-	icon=folium.Icon(icon='info-sign') 
+folium.Marker(
+    location=[-6.9762634, 114.1182389],
+    popup='Wisata Pantai Lapa Laok',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.975132, 114.107352],
+    popup='Masjid Ar Rafiqur Rahman',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9728743, 114],
+    popup='Pantai Dungkek',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9618709, 114.0981994],
+    popup='Masjid Nurul Islam',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9698403, 114.0996264],
+    popup='Masjid As Sholihin',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9764643, 114.0947555],
+    popup='Pelabuhan Dungkek',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9764643, 114.0947555],
+    popup='Kantor Pos Dungkek',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9764643, 114.0947555],
+    popup='KUA Dungkek Sumenep',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9764643, 114.0947555],
+    popup='Pasar Dungkek',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9716201, 114.0948479],
+    popup='Bukit Wisata Kalompek',
+    icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 folium.Marker(
     location=[-6.9250794, 112.8989777],
@@ -504,6 +503,56 @@ folium.Marker(
 folium.Marker(
     location=[-7.186633, 113.371867],
     popup='Rabasan',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.209429, 113.0336413, 16.79],
+    popup='Kantor Pos Modung ',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.2166668, 113.0579122, 15],
+    popup='Laboean',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8928552, 113.2576821, 12],
+    popup='Air Terjun Toroan ',
+    icon=folium.Icon(color='green', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9086727, 113.4831474, 16.5],
+    popup='Goa Blaban ',
+    icon=folium.Icon(color='brown', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8985224, 113.4843233, 17.5],
+    popup='Kantor Pos Batumarmar ',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8986128, 113.4893759, 17.5],
+    popup='Night Club Sp ',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8969276, 113.4797962, 18.5],
+    popup='Shisa Cafe Colozeum ',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8957723, 113.4705835, 18],
+    popup='Kantor Pos Sokobanah ',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8999998, 113.4079122, 15],
+    popup='Sokobanah',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9102138, 113.3161432, 15],
+    popup='Kelapang',
     icon=folium.Icon(icon='info-sign')
 ).add_to(m)
 
