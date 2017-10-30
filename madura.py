@@ -405,7 +405,57 @@ folium.Marker(
 	location=[-6.9716201,114.0948479], 
 	popup='Bukit Wisata Kalompek', 
 	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
+).add_to(m)
+folium.Marker(
+    location=[-6.9250794, 112.8989777],
+    popup='Mangrove Labuhan',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.940416, 112.8620705],
+    popup='Bukit Kapur Arosbaya',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8943622, 112.993606],
+    popup='Pertamina',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8876956, 113.0196007],
+    popup='Masjid Waleed Aqeeli Al Hasan',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8863109, 113.022991],
+    popup='SPBN AKR Banyu Sangka',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8979208, 112.9564936],
+    popup='Pt. Semen Gresik',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8946402, 112.9285343],
+    popup='Kantor Desa Larangan Glintong',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8951518, 112.9041227],
+    popup='Indomaret Klampis',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8965365, 112.8832229],
+    popup='Indomarco Adi Prima PT',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9002431, 112.8742536],
+    popup='Mrandung Village',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
 
 
 m.save('index.html')
