@@ -605,6 +605,55 @@ folium.Marker(
 	popup='Toko Hj. Jamila', 
 	icon=folium.Icon(icon='info-sign') 
 ).add_to(m) 
-
+folium.Marker(
+    location=[-7.2138232, 113.299243],
+    popup='Pantai Wisata Camplong ,hotel, Dan Resto',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.2136529, 113.2729359],
+    popup='Politeknik Negeri Madura',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.2006671, 113.2419725],
+    popup='RSUD Sampang',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.196303, 113.2430883],
+    popup='Pantai Nepa Sampang Madura',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1939825, 113.2397838],
+    popup='Kodim 0828 Sampang',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.2199006, 113.2050832],
+    popup='PT Garam Persero',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9887753, 112.7826459],
+    popup='Agenpos Jaya Bersaudara',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.998402, 112.7753717],
+    popup='TOKO LAUT BIRU',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0052811, 112.7689988],
+    popup='UKM Seni Nanggala Universitas Trunojoyo',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0117342, 112.7628834],
+    popup='Perum Citra Mutiara Bancaran',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
 
 m.save('index.html')
