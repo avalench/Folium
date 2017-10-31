@@ -555,56 +555,56 @@ folium.Marker(
     popup='Kelapang',
     icon=folium.Icon(icon='info-sign')
 ).add_to(m)
-folium.Marker( 
-	location=[-7.1041556,113.8785575], 
-	popup='Tk. Katulistiwa', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.1171866,113.8809178], 
-	popup='Warkop Bunda Rio', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.1253202,113.8889859], 
-	popup='Pelabuhan Tanjung, Saronggi', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.1296638,113.8890932], 
-	popup='Menara Suar Tanjung', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.1225877,113.8925464], 
-	popup='Masjid Taufiqur Rahman', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.1241098,113.890489], 
-	popup='Loket Transportasi Wisata Gili Labak', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.1241098,113.890489], 
-	popup='SPBN AKR Saronggi Sumenep', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.1066376,113.8661854], 
-	popup='SMPN 2 Sarongi', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.097404,113.8597051], 
-	popup='Warung Kopi Bu Serli', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-7.0973614,113.8597051], 
-	popup='Toko Hj. Jamila', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
+folium.Marker(
+    location=[-7.1041556, 113.8785575],
+    popup='Tk. Katulistiwa',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1171866, 113.8809178],
+    popup='Warkop Bunda Rio',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1253202, 113.8889859],
+    popup='Pelabuhan Tanjung, Saronggi',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1296638, 113.8890932],
+    popup='Menara Suar Tanjung',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1225877, 113.8925464],
+    popup='Masjid Taufiqur Rahman',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1241098, 113.890489],
+    popup='Loket Transportasi Wisata Gili Labak',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1241098, 113.890489],
+    popup='SPBN AKR Saronggi Sumenep',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1066376, 113.8661854],
+    popup='SMPN 2 Sarongi',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.097404, 113.8597051],
+    popup='Warung Kopi Bu Serli',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0973614, 113.8597051],
+    popup='Toko Hj. Jamila',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
 folium.Marker(
     location=[-7.2138232, 113.299243],
     popup='Pantai Wisata Camplong ,hotel, Dan Resto',
@@ -654,6 +654,56 @@ folium.Marker(
     location=[-7.0117342, 112.7628834],
     popup='Perum Citra Mutiara Bancaran',
     icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.054003, 113.942728],
+    popup='Biru laut express ',
+    icon=folium.Icon(color='blue', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.056952, 113.942707],
+    popup='Pelabuhan Kali Anget ',
+    icon=folium.Icon(color='blue', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.052214, 113.947878],
+    popup='Goa Batu Kurung ',
+    icon=folium.Icon(color='yellow', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.044729, 113.947577],
+    popup='Pelabuhan kaletek ',
+    icon=folium.Icon(color='blue', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.024242, 113.890200],
+    popup='Bandara Trunojoyo ',
+    icon=folium.Icon(color='blue', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.007172, 113.856007],
+    popup='Taman Kemala ',
+    icon=folium.Icon(color='green', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.008237, 113.860245],
+    popup='Taman Adipura kota Sumenep ',
+    icon=folium.Icon(color='green', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.008493, 113.864161],
+    popup='Taman Lake ',
+    icon=folium.Icon(color='green', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.003296, 113.863710],
+    popup='Kantor Pos Sumenep ',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.995767, 113.871928],
+    popup='Makam pangeran ketandur ',
+    icon=folium.Icon(color='black', icon='info-sign')
 ).add_to(m)
 
 m.save('index.html')
