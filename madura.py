@@ -555,6 +555,56 @@ folium.Marker(
     popup='Kelapang',
     icon=folium.Icon(icon='info-sign')
 ).add_to(m)
+folium.Marker( 
+	location=[-7.1041556,113.8785575], 
+	popup='Tk. Katulistiwa', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.1171866,113.8809178], 
+	popup='Warkop Bunda Rio', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.1253202,113.8889859], 
+	popup='Pelabuhan Tanjung, Saronggi', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.1296638,113.8890932], 
+	popup='Menara Suar Tanjung', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.1225877,113.8925464], 
+	popup='Masjid Taufiqur Rahman', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.1241098,113.890489], 
+	popup='Loket Transportasi Wisata Gili Labak', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.1241098,113.890489], 
+	popup='SPBN AKR Saronggi Sumenep', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.1066376,113.8661854], 
+	popup='SMPN 2 Sarongi', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.097404,113.8597051], 
+	popup='Warung Kopi Bu Serli', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-7.0973614,113.8597051], 
+	popup='Toko Hj. Jamila', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
 
 
 m.save('index.html')
