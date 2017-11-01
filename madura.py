@@ -1,10 +1,42 @@
 import folium
 
 
-m = folium.Map(
-    location=[-7.0796837, 113.2876241],
-    zoom_start=10,
-    )
+def normal(long, lat):
+    osm = folium.Map(
+        location=[long, lat],
+        zoom_start=10,
+        tiles='OpenStreetMap')
+    return osm
+
+
+def lingkaranMerah(long, lat):
+    LM = folium.CircleMarker(
+        radius=15,
+        location=[long, lat],
+        color='crimson',
+        fill=True,)
+    return LM
+
+
+def lingkaranBiru(long, lat):
+    LB = folium.CircleMarker(
+        radius=15,
+        location=[long, lat],
+        color='blue',
+        fill=True,)
+    return LB
+
+
+def lingkaranHijau(long, lat):
+    LH = folium.CircleMarker(
+        radius=15,
+        location=[long, lat],
+        color='green',
+        fill=True,)
+    return LH
+
+
+m = normal(-7.0796837, 113.2876241)
 folium.Marker(
     location=[-7.0095568, 113.8495442],
     popup='Sumenep',
