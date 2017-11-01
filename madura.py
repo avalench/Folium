@@ -887,5 +887,56 @@ folium.Marker(
     popup='Ganding',
     icon=folium.Icon(color='black', icon='info-sign')
 ).add_to(m)
+folium.Marker(
+    location=[-6.8968334, 113.3764677],
+    popup='BMT AL-AZHARY 2',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8922424, 113.4160677],
+    popup='polsek sokobanah',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9012746, 113.418986],
+    popup='ATM BNI SOKOBANAH',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8936383, 113.4405104],
+    popup='UD.Sumber Rejeki',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8936383, 113.4405104],
+    popup='ATM PT.Bank Negara Indonesia',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8966845, 113.4544794],
+    popup='Fried Gedang K-Conk Pantura',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8974301, 113.4700791],
+    popup='Pasar Tamberu',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8996669, 113.4753362],
+    popup='SPBN AKR Sokobanah',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9006874, 113.5141829],
+    popup='Markas Udien Jesen Genzho 93',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.8986219, 113.5306385],
+    popup='Toko Sinar Fajar',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+
 
 m.save('index.html')
