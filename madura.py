@@ -755,5 +755,56 @@ folium.Marker(
     popup='Dasuk',
     icon=folium.Icon(color='black', icon='info-sign')
 ).add_to(m)
+folium.Marker(
+    location=[-6.993473, 113.5148273],
+    popup='Gunung Perkat(Jurkottok)',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0080824, 113.5372675],
+    popup='Kamboja. UD',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0163539, 113.5537017],
+    popup='Bank Rakyat Indonesia',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.021983, 113.55616],
+    popup='Taman Pendidikan Al-Quran (TPQ) Al-Amannah',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0261055, 113.5511061],
+    popup='Koperasi Unit Desa Karya Bhakti',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0311546, 113.5471132],
+    popup='SPBU Pakong',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0366458, 113.5460843],
+    popup='Spbu Pertamina',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0443005, 113.5455239],
+    popup='KAMPOENG CANDI',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0080824, 113.5372675],
+    popup='Kopontren Pancoran',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0952578, 113.5546416],
+    popup='Mabrur. UD',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+
 
 m.save('index.html')
