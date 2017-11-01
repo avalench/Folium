@@ -805,6 +805,55 @@ folium.Marker(
     popup='Mabrur. UD',
     icon=folium.Icon(icon='info-sign')
 ).add_to(m)
-
+folium.Marker(
+    location=[-6.913833, 113.920749],
+    popup='Batuputih',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.027314, 113.438724],
+    popup='Pasanggar',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.999600, 113.408902],
+    popup='Poreh',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.943450, 113.400147],
+    popup='Bira Timur',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.962700, 113.344529],
+    popup='Pancor',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.058447, 113.139909],
+    popup='Beringin',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.007671, 113.020433],
+    popup='Lembung Gunong',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.148377, 113.010133],
+    popup='Gigir',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.961838, 113.695802],
+    popup='Rajun',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.059289, 113.710908],
+    popup='Ganding',
+    icon=folium.Icon(color='black', icon='info-sign')
+).add_to(m)
 
 m.save('index.html')
