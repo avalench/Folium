@@ -1,36 +1,36 @@
 import folium
 
 
-def normal(long, lat):
+def normal(lat, long):
     osm = folium.Map(
-        location=[long, lat],
+        location=[lat, long],
         zoom_start=10,
         tiles='OpenStreetMap')
     return osm
 
 
-def lingkaranMerah(long, lat):
+def lingkaranMerah(lat, long):
     LM = folium.CircleMarker(
         radius=15,
-        location=[long, lat],
+        location=[lat, long],
         color='crimson',
         fill=True,)
     return LM
 
 
-def lingkaranBiru(long, lat):
+def lingkaranBiru(lat, long):
     LB = folium.CircleMarker(
         radius=15,
-        location=[long, lat],
+        location=[lat, long],
         color='blue',
         fill=True,)
     return LB
 
 
-def lingkaranHijau(long, lat):
+def lingkaranHijau(lat, long):
     LH = folium.CircleMarker(
         radius=15,
-        location=[long, lat],
+        location=[lat, long],
         color='green',
         fill=True,)
     return LH
@@ -887,5 +887,16 @@ folium.Marker(
     popup='Ganding',
     icon=folium.Icon(color='black', icon='info-sign')
 ).add_to(m)
+lingkaranMerah(-7.163869, 112.781680).add_to(m)
+lingkaranBiru(-7.174050, 112.727494).add_to(m)
+lingkaranBiru(-7.175157, 112.721754).add_to(m)
+lingkaranBiru(-7.044729, 113.947577).add_to(m)
+lingkaranBiru(-6.9764643, 114.0947555).add_to(m)
+lingkaranBiru(-7.1253202, 113.8889859).add_to(m)
+lingkaranBiru(-7.056952, 113.942707).add_to(m)
+lingkaranHijau(-7.0480749, 112.7604445).add_to(m)
+lingkaranHijau(-6.8862571, 112.9828318).add_to(m)
+lingkaranHijau(-6.8882991, 112.9883212).add_to(m)
+
 
 m.save('index.html')
