@@ -937,6 +937,56 @@ folium.Marker(
     popup='Toko Sinar Fajar',
     icon=folium.Icon(color='black', icon='info-sign')
 ).add_to(m)
+folium.Marker( 
+	location=[-6.9066938, 113.5643123], 
+	popup='Pantai Batu Kerbuy', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9143327, 113.5791865], 
+	popup='Masjid Jamik', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9143327, 113.5791865], 
+	popup='Warung Kopi Amsu', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.917528, 113.592619], 
+	popup='Pasar Keles Dempo Barat', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9173408,113.6127159], 
+	popup='Pasar Togur Dempo Timur', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9268412, 113.6200973], 
+	popup='Masjid Al-Ihsan', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9268412, 113.6200973], 
+	popup='Masjid Al-Ikhlas', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9343817, 113.6160633], 
+	popup='Toko Al-Barokah', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9429445, 113.6168787], 
+	popup='Masjid Raudlatus Salam', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
+folium.Marker( 
+	location=[-6.9429445, 113.6168787], 
+	popup='Pejagungan Bawah', 
+	icon=folium.Icon(icon='info-sign') 
+).add_to(m) 
 lingkaranMerah(-7.163869, 112.781680).add_to(m)
 lingkaranBiru(-7.174050, 112.727494).add_to(m)
 lingkaranBiru(-7.175157, 112.721754).add_to(m)
