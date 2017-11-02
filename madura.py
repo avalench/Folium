@@ -13,6 +13,7 @@ def lingkaranMerah(lat, long):
     LM = folium.CircleMarker(
         radius=15,
         location=[lat, long],
+        popup='<i>Redzone<i>',
         color='crimson',
         fill=True,)
     return LM
@@ -22,6 +23,7 @@ def lingkaranBiru(lat, long):
     LB = folium.CircleMarker(
         radius=15,
         location=[lat, long],
+        popup='<i>Bluezone<i>',
         color='blue',
         fill=True,)
     return LB
@@ -31,6 +33,7 @@ def lingkaranHijau(lat, long):
     LH = folium.CircleMarker(
         radius=15,
         location=[lat, long],
+        popup='<i>Greenzone<i>',
         color='green',
         fill=True,)
     return LH
@@ -937,56 +940,56 @@ folium.Marker(
     popup='Toko Sinar Fajar',
     icon=folium.Icon(color='black', icon='info-sign')
 ).add_to(m)
-folium.Marker( 
-	location=[-6.9066938, 113.5643123], 
-	popup='Pantai Batu Kerbuy', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9143327, 113.5791865], 
-	popup='Masjid Jamik', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9143327, 113.5791865], 
-	popup='Warung Kopi Amsu', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.917528, 113.592619], 
-	popup='Pasar Keles Dempo Barat', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9173408,113.6127159], 
-	popup='Pasar Togur Dempo Timur', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9268412, 113.6200973], 
-	popup='Masjid Al-Ihsan', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9268412, 113.6200973], 
-	popup='Masjid Al-Ikhlas', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9343817, 113.6160633], 
-	popup='Toko Al-Barokah', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9429445, 113.6168787], 
-	popup='Masjid Raudlatus Salam', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
-folium.Marker( 
-	location=[-6.9429445, 113.6168787], 
-	popup='Pejagungan Bawah', 
-	icon=folium.Icon(icon='info-sign') 
-).add_to(m) 
+folium.Marker(
+    location=[-6.9066938, 113.5643123],
+    popup='Pantai Batu Kerbuy',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9143327, 113.5791865],
+    popup='Masjid Jamik',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9143327, 113.5791865],
+    popup='Warung Kopi Amsu',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.917528, 113.592619],
+    popup='Pasar Keles Dempo Barat',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9173408, 113.6127159],
+    popup='Pasar Togur Dempo Timur',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9268412, 113.6200973],
+    popup='Masjid Al-Ihsan',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9268412, 113.6200973],
+    popup='Masjid Al-Ikhlas',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9343817, 113.6160633],
+    popup='Toko Al-Barokah',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9429445, 113.6168787],
+    popup='Masjid Raudlatus Salam',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9429445, 113.6168787],
+    popup='Pejagungan Bawah',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
 lingkaranMerah(-7.163869, 112.781680).add_to(m)
 lingkaranBiru(-7.174050, 112.727494).add_to(m)
 lingkaranBiru(-7.175157, 112.721754).add_to(m)
@@ -1007,6 +1010,21 @@ lingkaranBiru(-7.029254, 112.821794).add_to(m)
 lingkaranHijau(-7.139807, 113.491863).add_to(m)
 lingkaranHijau(-7.246246, 113.513063).add_to(m)
 lingkaranHijau(-7.214225, 113.782915).add_to(m)
+lingkaranHijau(-6.978207, 114.124228).add_to(m)
+lingkaranHijau(-6.969357, 114.119335).add_to(m)
+lingkaranBiru(-6.979378, 114.098554).add_to(m)
+folium.Marker(
+    location=[-7.003296, 113.863710],
+    popup='Kantor Pos Dungkek ',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(m)
+lingkaranBiru(-7.009398, 113.995160).add_to(m)
+lingkaranHijau(-6.891960, 113.575866).add_to(m)
+folium.Marker(
+    location=[-6.895135, 113.571553],
+    popup='Kantor Pos Pasean ',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(m)
 
 
-m.save('index.html')
+m
