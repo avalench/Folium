@@ -990,6 +990,56 @@ folium.Marker(
     popup='Pejagungan Bawah',
     icon=folium.Icon(icon='info-sign')
 ).add_to(m)
+folium.Marker(
+    location=[-6.9176441, 113.1388395],
+    popup='SMPN SATAP 1 BANYUATES',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9586605, 113.1286555],
+    popup='Madura Prima Interna. PT',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0208671, 113.1153058],
+    popup='R.Yani',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0267023, 113.1160139],
+    popup='Durjan Barat',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0375421, 113.1152199],
+    popup='PP Mada Mada Mahad Darussalam',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0460818, 113.1129025],
+    popup='Rumah Abdul Wasi',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.0753623, 113.1129025],
+    popup='Arifa Gadget',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.1172286, 113.1137616],
+    popup='Dinas P. U. Cipta Karya Dan Tata Ruang',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.158414, 113.1144021],
+    popup='Asem Nonnggal',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-7.2015736, 113.1016319],
+    popup='Bhunjuh Gpb Club 58',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
 lingkaranMerah(-7.163869, 112.781680).add_to(m)
 lingkaranBiru(-7.174050, 112.727494).add_to(m)
 lingkaranBiru(-7.175157, 112.721754).add_to(m)
