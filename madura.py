@@ -1040,6 +1040,56 @@ folium.Marker(
     popup='Bhunjuh Gpb Club 58',
     icon=folium.Icon(icon='info-sign')
 ).add_to(m)
+folium.Marker(
+    location=[-6.8966237,113.1469086,772],
+    popup='Masjid Nurul Muttaqin',
+    icon=folium.Icon(icon='info-sign')	
+).add_to(m)
+folium.Marker(
+    location=[-6.8970404,113.1523324,773],
+    popup='Pasar Banyuates Sampang',
+    icon=folium.Icon(icon='info-sign')	
+).add_to(m)
+folium.Marker(
+    location=[-6.8989072,113.1378395,4296],
+    popup='Masjid HIDAYATULLAH Trapang Banyuates Sampang',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9104738,113.1557232,1322],
+    popup='Masjid Baytur Rahman',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9104738,113.1557232,1322],
+    popup='Majelis Taklim (MT) Al Achyar',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9131882,113.1654307,1321],
+    popup='Masjid Nurus Salam',
+    icon=folium.Icon(icon='info-sign')	
+).add_to(m)
+folium.Marker(
+    location=[-6.9049078,113.1808601,1328],
+    popup='Masjid Jami',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9165737,113.1922935,1328],
+    popup='Masjid Mbah Chalil',
+    icon=folium.Icon(icon='info-sign')	
+).add_to(m)
+folium.Marker(
+    location=[-7.0091392,113.2622017,1317],
+    popup='Masjid Desa Torjunan',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
+folium.Marker(
+    location=[-6.9992632,113.2878536,1314],
+    popup='Masjid As Sa`adah',
+    icon=folium.Icon(icon='info-sign')
+).add_to(m)
 lingkaranMerah(-7.163869, 112.781680).add_to(m)
 lingkaranBiru(-7.174050, 112.727494).add_to(m)
 lingkaranBiru(-7.175157, 112.721754).add_to(m)
